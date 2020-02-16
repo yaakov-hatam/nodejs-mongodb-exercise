@@ -1,0 +1,15 @@
+{
+    "name": "mongodb-example",
+    "version": "1.0.0",
+    "description": "You should write the `install.js` file file. this file have an array with domains. you should insert to db every domain the a collection that have the name of the domain extension (e.g. `co.il` collection for `xyz.co.il`).\r every document will have a properties: `extension: string`, `domain: string`, `hasStats: boolean` and `stats: object` that sets to `null`.",
+    "main": "install.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node server.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "mongodb": "^3.5.3"
+    }
+}
